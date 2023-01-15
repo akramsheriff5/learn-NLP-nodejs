@@ -1,0 +1,16 @@
+{
+  "name": "learn-nlp",
+  "version": "1.0.0",
+  "description": "what is nlp ?  how it works ? how to train dataset ?  ",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "train": "node trainCSV-dataset.js"
+  },
+  "author": "dev-ak",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "node-nlp": "^4.26.1"
+  }
+}
